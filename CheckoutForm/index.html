@@ -142,7 +142,6 @@
               <label for="paypal" class="form-check-label">PayPal</label>
             </div>
           </div>
-
           <div class="row mb-3" id="nameCard">
             <div class="col-md-6">
               <label for="cardName" class="form-label">Name on card</label>
@@ -173,7 +172,80 @@
             </button>
           </div>
         </div>
-        <div class="col-sm-4"></div>
+        <div class="col-sm-4">
+          <div id="header" class="d-flex justify-content-between mb-2">
+            <h4 class="text-secondary">Your cart</h4>
+            <h4>
+              <span
+                class="badge badge-secondary badge-pill"
+                style="background-color: green"
+                >3</span
+              >
+            </h4>
+          </div>
+          <div class="card mb-3">
+            <ul class="list-group">
+              <li class="list-group-item">
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <h6 class="mb-0">Product name</h6>
+                    <small class="text-muted">Brief description</small>
+                  </div>
+                  <p class="text-secondary">$12</p>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <h6 class="mb-0">Second product</h6>
+                    <small class="text-muted">Brief description</small>
+                  </div>
+                  <p class="text-secondary">$8</p>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <h6 class="mb-0">Third item</h6>
+                    <small class="text-muted">Brief description</small>
+                  </div>
+                  <p class="text-secondary">$5</p>
+                </div>
+              </li>
+              <li class="list-group-item" style="color: #63a745">
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <h6 class="mb-0">Promo code</h6>
+                    <small>EXAMPLECODE</small>
+                  </div>
+                  <p>-$5</p>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="d-flex justify-content-between align-self-center">
+                  <p class="fs-6">Total (USD)</p>
+                  <p class="fw-bold">$20</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="card">
+            <ul class="list-group">
+              <li class="list-group-item p-2">
+                <div class="input-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Promo Code"
+                  />
+                  <button class="btn btn-secondary" type="button">
+                    Redeem
+                  </button>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
     <script
