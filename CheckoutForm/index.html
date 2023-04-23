@@ -10,12 +10,17 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
+    <style>
+      small {
+        font-size: 12px;
+      }
+    </style>
     <title>CheckOut Form</title>
   </head>
-  <body>
+  <body class="bg-light">
     <div class="container-fluid" style="max-width: 960px">
       <div class="row text-center py-5">
-        <div class="col-sm-12">
+        <div class="col-sm-12 px-5">
           <img
             src="./Images/bootstrap-4.svg"
             style="width: 72px"
@@ -32,7 +37,7 @@
       </div>
       <div class="row">
         <div class="col-sm-8">
-          <h4>Billing address</h4>
+          <h4 class="mb-3">Billing address</h4>
           <div class="row mb-3" id="firstLastName">
             <div class="col-md-6">
               <label for="firstName" class="form-label">First name</label>
@@ -178,13 +183,13 @@
             <h4>
               <span
                 class="badge badge-secondary badge-pill"
-                style="background-color: green"
+                style="background-color: #6c757d; border-radius: 15px"
                 >3</span
               >
             </h4>
           </div>
           <div class="card mb-3">
-            <ul class="list-group">
+            <ul class="list-group list-group-flush">
               <li class="list-group-item">
                 <div class="d-flex justify-content-between">
                   <div>
@@ -212,7 +217,10 @@
                   <p class="text-secondary">$5</p>
                 </div>
               </li>
-              <li class="list-group-item" style="color: #63a745">
+              <li
+                class="list-group-item list-group-item-light"
+                style="color: #63a745"
+              >
                 <div class="d-flex justify-content-between">
                   <div>
                     <h6 class="mb-0">Promo code</h6>
@@ -221,8 +229,8 @@
                   <p>-$5</p>
                 </div>
               </li>
-              <li class="list-group-item">
-                <div class="d-flex justify-content-between align-self-center">
+              <li class="list-group-item pb-0">
+                <div class="d-flex justify-content-between align-items-center">
                   <p class="fs-6">Total (USD)</p>
                   <p class="fw-bold">$20</p>
                 </div>
@@ -230,7 +238,7 @@
             </ul>
           </div>
           <div class="card">
-            <ul class="list-group">
+            <ul class="list-group list-group-flush">
               <li class="list-group-item p-2">
                 <div class="input-group">
                   <input
